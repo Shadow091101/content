@@ -41,6 +41,7 @@ Instead, check if the divisor is `0n` first, and either issue an error with a be
 const a = 1n;
 const b = 0n;
 const quotient = b === 0n ? undefined : a / b;
+console.log(quotient)//we can also see what will quotient returns
 ```
 
 ## See also
